@@ -3,8 +3,9 @@ import {Element} from 'react-scroll'
 
 export const HomeThreeColumns = () => {
     return (
-        <section  className="three_back">
 
+        <Element name="start">
+            <section className="three_back">
                 <div className="container three_content">
                     <div className="three_box">
                         <h1 className="three_box_title">10</h1>
@@ -33,9 +34,8 @@ export const HomeThreeColumns = () => {
                             fuga labore officia quisquam quos sint voluptate.
                         </p>
                     </div>
-
                 </div>
-            <Element name="start"/>
-        </section>
+            </section>
+        </Element>
     )
 };
