@@ -1,0 +1,36 @@
+.three_back{
+  background-color: $color3;
+}
+
+.three_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.three_box {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.three_box_title {
+  margin:0;
+  font-size: 90px;
+  color:$color2;
+  font-weight: lighter;
+}
+
+.three_box_title4 {
+  margin: 25px;
+  color: $color5;
+  font-size: 18px;
+}
+
+.three_box_text {
+  color: $color5;
+  font-size: 16px;
+  text-align: center;
+}
+
