@@ -1,0 +1,10 @@
+@import "settings/reset";
+@import "settings/normalize";
+
+
+@import "settings/font";
+@import "settings/colors";
+
+body {
+  font-family: $font-base;
+}
