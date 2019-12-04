@@ -3,6 +3,7 @@ import React from 'react';
 
 import {HomeHeader} from "./homeheader";
 import {HomeThreeColumns} from "./homethreecolumns";
+import {HomeSimpleSteps} from "./homesimplesteps";
 import '../../scss/main.scss'
 
 export const Home = () => {
@@ -12,6 +13,7 @@ export const Home = () => {
                 <HomeHeader/>
             </div>
             <HomeThreeColumns/>
+            <HomeSimpleSteps/>
         </>
     )
 };

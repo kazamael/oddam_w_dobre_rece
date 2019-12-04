@@ -12,7 +12,7 @@ export const HomeHeader = () => {
             </ul>
             <ul className="header_nav header_nav2">
                 <li className="header_nav2_item"><LinkScroll activeClass="active" to="start" spy={true} smooth={true} duration={1500} >Start</LinkScroll></li>
-                <li className="header_nav2_item">O co chodzi?</li>
+                <li className="header_nav2_item"><LinkScroll activeClass="active" to="simplesteps" spy={true} smooth={true} duration={1500} >O co chodzi?</LinkScroll></li>
                 <li className="header_nav2_item">O nas</li>
                 <li className="header_nav2_item">Fundacja i organizacje</li>
                 <li className="header_nav2_item">Kontakt</li>
