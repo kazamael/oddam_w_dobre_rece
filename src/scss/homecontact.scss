@@ -1,0 +1,96 @@
+.contact_section {
+ color:$color5;
+ width:100%;
+
+ background-size:cover;
+ display:flex;
+ flex-direction:column;
+ align-items:flex-end;
+ position:relative;
+}
+
+.contact_section::after {
+  content: "";
+  background-image: url("../assets/Background-Contact-Form.jpg");
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.contact_main {
+ width:40%;
+ padding:140px;
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+}
+
+.contact_form {
+  display:flex;
+  margin-top:50px;
+  flex-direction:column;
+  align-items:center;
+}
+
+.contact_form_inputs {
+  display:flex;
+}
+
+.contact_form_inputs>div {
+  display:flex;
+  flex-direction:column;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.contact_form_label {
+ font-weight:bolder;
+ padding:10px;
+ padding-left:0;
+ align-self:flex-start;
+}
+
+.contact_form_input, .contact_form_textarea {
+ margin-right:10px;
+ border:none;
+ background:none;
+ border-bottom:2px solid $color4;
+}
+
+.contact_form_textarea {
+ height:120px;
+ width:100%;
+}
+
+.contact_form_submit {
+ align-self:flex-end;
+ margin-right:3px;
+ margin-top:30px;
+ padding:15px 20px;
+ border:1px solid $color4;
+ background:none;
+
+ &:hover {
+  color:$color4;
+ }
+}
+
+.contact_footer {
+ padding:30px;
+ width:60%;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
+
+.footer_icons {
+padding-right:70px;
+}
+
+.footer_icon {
+padding-right:15px;
+}

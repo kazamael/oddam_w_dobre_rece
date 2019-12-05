@@ -6,6 +6,7 @@ import {HomeThreeColumns} from "./homethreecolumns";
 import {HomeSimpleSteps} from "./homesimplesteps";
 import {HomeAboutUs} from "./homeaboutus";
 import {HomeWhoWeHelp} from "./homewhowehelp";
+import {HomeContact} from "./homecontact";
 import '../../scss/main.scss'
 
 export const Home = () => {
@@ -18,6 +19,7 @@ export const Home = () => {
             <HomeSimpleSteps/>
             <HomeAboutUs/>
             <HomeWhoWeHelp/>
+            <HomeContact/>
         </>
     )
 };

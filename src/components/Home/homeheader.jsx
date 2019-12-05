@@ -31,7 +31,11 @@ export const HomeHeader = () => {
                         Fundacja i organizacje
                     </LinkScroll>
                 </li>
-                <li className="header_nav2_item">Kontakt</li>
+                <li className="header_nav2_item">
+                    <LinkScroll activeClass="active" to="contact" spy={true} smooth={true} duration={500}>
+                        Kontakt
+                    </LinkScroll>
+                </li>
             </ul>
             <div className="header_article">
                 <h1 className="header_article_title">Zacznij pomagać!</h1>
