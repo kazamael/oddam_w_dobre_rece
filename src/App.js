@@ -1,8 +1,7 @@
 import React from 'react';
 import {
     HashRouter as Router,
-    Route,
-    Link
+    Route
 } from 'react-router-dom';
 
 import './App.css';

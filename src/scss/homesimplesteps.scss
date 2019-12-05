@@ -30,59 +30,59 @@
 }
 
 .simple_content {
-padding-top:30px;
-padding-bottom:50px;
+  padding-top:30px;
+  padding-bottom:50px;
   width:65%;
   display:flex;
   justify-content:space-between;
 }
 
 .simple_box {
-color:$color5;
-display:flex;
-flex-direction:column;
-align-items:center;
+  color:$color5;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
 
 .simple_box_img {
-padding:20px;
+  padding:20px;
 }
 
 .simple_box_title {
-text-align:center;
-width:70%;
-padding:15px;
+  text-align:center;
+  width:70%;
+  padding:15px;
 
-&:after {
-content: "";
-display: block;
-margin: 0 auto;
-padding-top:20px;
-width: 50%;
-border-bottom: 1px solid $color5;
-}
+  &:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    padding-top:20px;
+    width: 50%;
+    border-bottom: 1px solid $color5;
+  }
 }
 
 .simple_box_text {
-text-align:center;
-width:70%;
+  text-align:center;
+  width:70%;
 }
 
 .simple_button {
-padding:20px;
-border: 1px solid $color4;
-background-color:white;
-margin:40px;
-width:17%;
+  padding:20px;
+  border: 1px solid $color4;
+  background-color:white;
+  margin:40px;
+  width:17%;
 }
 
 .simple_link {
-font-weight:lighter;
-text-decoration:none;
-color:$color4;
-font-size:36px;
+  font-weight:lighter;
+  text-decoration:none;
+  color:$color4;
+  font-size:36px;
 
-&:hover {
-color:$color5;
-}
+  &:hover {
+    color:$color5;
+  }
 }
