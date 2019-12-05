@@ -26,7 +26,11 @@ export const HomeHeader = () => {
                         O nas
                     </LinkScroll>
                 </li>
-                <li className="header_nav2_item">Fundacja i organizacje</li>
+                <li className="header_nav2_item">
+                    <LinkScroll activeClass="active" to="whowehelp" spy={true} smooth={true} duration={500}>
+                        Fundacja i organizacje
+                    </LinkScroll>
+                </li>
                 <li className="header_nav2_item">Kontakt</li>
             </ul>
             <div className="header_article">

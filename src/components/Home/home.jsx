@@ -5,6 +5,7 @@ import {HomeHeader} from "./homeheader";
 import {HomeThreeColumns} from "./homethreecolumns";
 import {HomeSimpleSteps} from "./homesimplesteps";
 import {HomeAboutUs} from "./homeaboutus";
+import {HomeWhoWeHelp} from "./homewhowehelp";
 import '../../scss/main.scss'
 
 export const Home = () => {
@@ -16,6 +17,7 @@ export const Home = () => {
             <HomeThreeColumns/>
             <HomeSimpleSteps/>
             <HomeAboutUs/>
+            <HomeWhoWeHelp/>
         </>
     )
 };
