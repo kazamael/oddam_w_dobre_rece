@@ -8,7 +8,7 @@ export const HomeHeader = () => {
         <header className="container header_header">
             <ul className="header_nav header_nav1">
                 <li className="header_nav1_item"><Link className="header_nav1_link" to="/login">Zaloguj</Link></li>
-                <li className="header_nav1_item"><Link className="header_nav1_link" to="/login">Załóż konto</Link></li>
+                <li className="header_nav1_item"><Link className="header_nav1_link" to="/registration">Załóż konto</Link></li>
             </ul>
             <ul className="header_nav header_nav2">
                 <li className="header_nav2_item">

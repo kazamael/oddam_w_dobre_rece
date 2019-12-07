@@ -29,9 +29,13 @@
  align-items:center;
 }
 
+.contact-decoration{
+ margin-bottom:25px;
+}
+
 .contact_form {
   display:flex;
-  margin-top:50px;
+  margin-top:25px;
   flex-direction:column;
   align-items:center;
 }
@@ -88,9 +92,24 @@
 }
 
 .footer_icons {
-padding-right:70px;
+  padding-right:70px;
 }
 
 .footer_icon {
-padding-right:15px;
+  padding-right:15px;
+}
+
+.validationpass {
+ text-align:center;
+ font-weight:bolder;
+ color:green;
+ width:40%;
+ margin-top:25px;
+}
+
+.validationerror {
+ font-weight:bolder;
+ color:red;
+ font-size:12px;
+ padding-top:5px;
 }
