@@ -51,6 +51,7 @@
  @media (max-width:550px) {
      flex-direction:column;
      padding:0 20px;
+     width:100%;
    }
 }
 
@@ -67,6 +68,9 @@
   width:40%;
   color:$color5;
   font-size:22px;
+  @media (max-width:550px) {
+       width:100%;
+     }
 }
 
 .formend_data_data {

@@ -173,9 +173,9 @@ padding:8px;
   border: 1px solid $color4;
 
   @media (max-width:550px){
-    font-weight: bolder;
+    font-weight:
+    bolder;
     width:80%;
-    height:50px;
     margin-bottom:15px;
     font-size:20px;
   }
@@ -188,6 +188,7 @@ padding:8px;
   &:hover {
     color:$color5;
   }
+
 }
 
 .sign_out {
