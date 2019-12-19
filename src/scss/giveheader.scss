@@ -9,6 +9,9 @@
 
   @media (max-width:550px) {
    background:none;
+   justify-content:center;
+   margin:0;
+   padding:0;
    }
 }
 
@@ -21,7 +24,9 @@
   align-items:center;
 
   @media (max-width:550px) {
+   padding:0;
     padding-top:40px;
+    width:80%;
    }
 }
 
@@ -49,6 +54,7 @@
 
  @media (max-width:550px) {
    flex-direction:column;
+   padding-bottom:50px;
   }
 }
 
