@@ -129,9 +129,9 @@ padding-top: 1px;
 }
 
 .form1_button {
-margin-top:100px;
- padding:20px 0;
- width: 15%;
+ width:15%;
+ margin-top:100px;
+ padding:20px 15px;
  color:$color4;
  font-weight:lighter;
  font-size:32px;
@@ -143,11 +143,13 @@ margin-top:100px;
  }
 
  @media (max-width:550px) {
-
+  display:flex;
+  flex-wrap:wrap;
   font-size:20px;
   font-weight:bolder;
   align-self:center;
-  width:45%;
+  width:content;
+  width:100%;
  }
 }
 
