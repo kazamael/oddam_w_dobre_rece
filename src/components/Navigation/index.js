@@ -35,6 +35,7 @@ class NavigationAuth extends React.Component {
     }
 
     onClick = () => {
+        if (window.innerWidth < 550) {
         {
             !this.state.burger ?
                 this.setState({
@@ -45,6 +46,7 @@ class NavigationAuth extends React.Component {
                     burger: false
                 })
         }
+    }
 
     };
 
