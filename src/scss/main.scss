@@ -11,7 +11,13 @@
 @import "homewhowehelp";
 @import "homecontact";
 @import "login";
-
+@import "giveheader";
+@import "giveform1";
+@import "giveform2";
+@import "giveform3";
+@import "giveform4";
+@import "giveend";
+@import "givethanks";
 
 body {
   box-sizing: border-box;
@@ -21,4 +27,8 @@ body {
 .container {
   width: 85%;
   margin: 0 auto;
+
+  @media (max-width:550px) {
+  width:100%
+  }
 }

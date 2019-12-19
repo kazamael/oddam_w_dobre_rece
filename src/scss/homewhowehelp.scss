@@ -23,6 +23,12 @@
  display:flex;
  justify-content:space-between;
 
+ @media (max-width:550px) {
+  width:90%;
+  flex-direction:column;
+  align-items:center;
+ }
+
 }
 
 .who_header_button {
@@ -35,6 +41,12 @@
  &:hover {
    color:$color4;
   }
+
+  @media (max-width:550px) {
+    width: 100%;
+    margin-bottom:5px;
+    padding:10px;
+   }
 }
 
 .who_header_text {
@@ -42,12 +54,19 @@
  text-align:center;
  padding:50px;
  width:40%;
+ @media (max-width:550px) {
+   display:none;
+  }
 }
 
 .who_content {
 font-size:18px;
  width:70%;
  font-family:$font-alt;
+
+ @media (max-width:550px) {
+   width:90%;
+  }
 }
 
 .who_content_items {
@@ -57,6 +76,11 @@ font-size:18px;
  border-bottom: 1px solid $color4;
  display:flex;
  justify-content:space-between;
+
+ @media (max-width:550px) {
+  display:block;
+  padding-bottom:5px;
+  }
 }
 
 .who_content_title {

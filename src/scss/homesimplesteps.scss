@@ -35,6 +35,9 @@
   width:65%;
   display:flex;
   justify-content:space-between;
+  @media (max-width:550px) {
+        flex-direction:column;
+      }
 }
 
 .simple_box {
@@ -74,6 +77,9 @@
   background-color:white;
   margin:40px;
   width:17%;
+  @media (max-width:550px) {
+        width:55%;
+      }
 }
 
 .simple_link {

@@ -1,27 +1,70 @@
+.burger {
+display:none;
+
+@media (max-width:550px){
+border-radius:1px;
+display:block;
+border:1px solid $color3;
+background:none;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+padding:8px;
+
+
+ &:hover{
+   div{
+    background-color:$color4;
+    }
+ }
+
+ div{
+   width:17px;
+   height:3px;
+   border-radius:5px;
+   background-color:$color3;
+   margin:2px;
+ }
+}
+}
+
 .header_section {
-  background-image: url("../assets/Home-Hero-Image.jpg");
+  background-image: url("../../src/assets/Home-Hero-Image.jpg");
   background-size: contain;
   background-position: -30%;
   background-repeat: no-repeat;
+
+    @media (max-width:550px){
+    background:none;
+    }
 }
 
 .header_header {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  @media (max-width:550px){
+  align-items:center;
+  }
+
 }
 
 .header_nav{
   margin-top:20px;
   font-family: Open Sans, Regular, serif;
   display: flex;
+  align-items:center;
 
+  @media (max-width:550px){
+      width:90%;
+      justify-content:space-around;
+      }
 }
 
 .header_nav1{
   font-size:14px;
   color:$color4;
-
 }
 
 .header_nav1_link {
@@ -44,6 +87,20 @@
 .header_nav2 {
   font-size: 18px;
   color:$color5;
+
+  @media (max-width:550px) {
+  position:absolute;
+  height:60%;
+  top:50px;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+  background:white;
+
+
+  }
 }
 
 .header_nav2_item {
@@ -65,7 +122,11 @@
   flex-direction: column;
   align-items: center;
   width: 60%;
-
+  @media (max-width:550px){
+  width:80%;
+  margin-top:30px;
+    padding-bottom: 45px;
+  }
 }
 
 .header_article_title {
@@ -81,15 +142,24 @@
   margin-bottom: 20px;
   width: 30%;
   height: 50px;
-  background-image: url("../assets/Decoration.svg");
+  background-image: url("../../src/assets/Decoration.svg");
   background-size: contain;
   background-repeat: no-repeat;
+
+  @media (max-width:550px){
+     width:80%;
+   }
 }
 
 .header_article_buttons {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+
+  @media (max-width:550px){
+   flex-direction:column;
+   align-items:center;
+   }
 }
 
 .header_article_button {
@@ -102,6 +172,14 @@
   background: none;
   border: 1px solid $color4;
 
+  @media (max-width:550px){
+    font-weight: bolder;
+    width:80%;
+    height:50px;
+    margin-bottom:15px;
+    font-size:20px;
+  }
+
 }
 
 .header_article_link {
@@ -110,5 +188,20 @@
   &:hover {
     color:$color5;
   }
+}
+
+.sign_out {
+  background:none;
+  border:none;
+  color:$color4;
+
+  &:hover {
+    color:$color5;
+  }
+}
+
+.user_mail {
+ color:$color5;
+ margin-right:15px;
 }
 

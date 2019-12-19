@@ -11,7 +11,7 @@
 
 .contact_section::after {
   content: "";
-  background-image: url("../assets/Background-Contact-Form.jpg");
+  background-image: url("../../src/assets/Background-Contact-Form.jpg");
   opacity: 0.4;
   top: 0;
   left: 0;
@@ -42,6 +42,9 @@
 
 .contact_form_inputs {
   display:flex;
+  @media (max-width:550px) {
+    flex-direction:column;
+   }
 }
 
 .contact_form_inputs>div {
@@ -63,6 +66,10 @@
  border:none;
  background:none;
  border-bottom:2px solid $color4;
+
+ @media (max-width:550px) {
+  width:90vw;
+  }
 }
 
 .contact_form_textarea {
@@ -81,6 +88,10 @@
  &:hover {
   color:$color4;
  }
+
+ @media (max-width:550px) {
+   align-self:center;
+  }
 }
 
 .contact_footer {
