@@ -36,18 +36,17 @@ class NavigationAuth extends React.Component {
 
     onClick = () => {
         if (window.innerWidth < 550) {
-        {
-            !this.state.burger ?
-                this.setState({
-                    burger: true
-                })
-                :
-                this.setState({
-                    burger: false
-                })
+            {
+                !this.state.burger ?
+                    this.setState({
+                        burger: true
+                    })
+                    :
+                    this.setState({
+                        burger: false
+                    })
+            }
         }
-    }
-
     };
 
     render() {
@@ -122,17 +121,18 @@ class NavigationNonAuth extends React.Component {
     }
 
     onClick = () => {
-        {
-            !this.state.burger ?
-                this.setState({
-                    burger: true
-                })
-                :
-                this.setState({
-                    burger: false
-                })
+        if (window.innerWidth < 550) {
+            {
+                !this.state.burger ?
+                    this.setState({
+                        burger: true
+                    })
+                    :
+                    this.setState({
+                        burger: false
+                    })
+            }
         }
-
     };
 
     render() {
