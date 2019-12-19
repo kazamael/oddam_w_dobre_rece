@@ -22,6 +22,9 @@
 body {
   box-sizing: border-box;
   font-family: $font-base;
+   @media (max-width:550px) {
+    width:100%;
+    }
 }
 
 .container {

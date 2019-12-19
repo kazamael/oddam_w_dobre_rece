@@ -18,6 +18,11 @@
   align-items:center;
   justify-content:center;
   padding:120px;
+   @media (max-width:550px) {
+    padding:0;
+    padding-top:30px;
+    padding-bottom:50px;
+    }
 }
 
 .aboutus_title {
